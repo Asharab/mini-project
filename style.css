@@ -74,10 +74,54 @@ h2 {
     width: 50vw;
     text-align: justify;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
 }
-.gtr {
+#car1 {
 	float: right;
+	border-radius: 8px;
 	display: inline-block;
+	max-height: auto;
+	max-width: 100%;
+}
+#insta {
+	width: 30px;
+	height: 30px;
+}
+#slack{
+	height: 30px;
+	width: 30px;
+}
+#face {
+	width: 30px;
+	height: 30px;
+}
+.lowbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #F5932B;
 }
 @media screen and (max-width: 800px) {
     .brief {
