@@ -68,3 +68,20 @@ h2 {
 	color: #F5932B;
 	padding-left: 50px;
 }
+.brief {
+    border: 5px solid #F5932B;
+    padding: 10px;
+    width: 50vw;
+    text-align: justify;
+    color: white;
+}
+.gtr {
+	float: right;
+	display: inline-block;
+}
+@media screen and (max-width: 800px) {
+    .brief {
+		height: 60%;
+		width: 60%;
+	}
+}
