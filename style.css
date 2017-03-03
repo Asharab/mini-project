@@ -17,6 +17,18 @@ body  {
 	color: #F5932B;
 	padding-left: 50px;
 }
+h2 {
+	text-decoration: underline;
+	text-indent: 30px;
+	display: inline-block;
+	letter-spacing: 2px;
+	text-shadow: 1.5px 1.5px green;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: small-caps;		
+	color: #F5932B;
+	padding-left: 50px;
+}
+
 
 
 
@@ -72,25 +84,6 @@ body  {
 .dropdown:hover .dropbtn {
     background-color: #6E5C78;
 }
-#
-
-
-
-
-
-
-h2 {
-	text-decoration: underline;
-	text-indent: 30px;
-	display: inline-block;
-	letter-spacing: 2px;
-	text-shadow: 1.5px 1.5px green;
-	font-family: Arial, Helvetica, sans-serif;
-	font-variant: small-caps;		
-	color: #F5932B;
-	padding-left: 50px;
-}
-
 
 
 
